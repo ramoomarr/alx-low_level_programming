@@ -8,7 +8,7 @@
 
 int main(void)
 {
-  char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+  char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
   int len = sizeof(quote) - 1;
   int fd = STDERR_FILENO;
   write(fd, quote, len);
