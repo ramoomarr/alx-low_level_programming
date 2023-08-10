@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -c $CFILE -o 'echo $CFILE | cut -d. -fl' .o
+gcc -c $c_file -o $o_file
+
