@@ -1,13 +1,13 @@
-#include <unistd.h>
+#include <stdio.h>
 
-int main(void) {
-  char quote[] = "and that piece of art is useful" " - Dora Korpar, 2015-10-19";
-  int len = sizeof(quote) - 1;
-  int fd = STDERR_FILENO;
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+*/
 
-  write(fd, quote, len);
-  write(fd, "\n", 1);
-
-  return 1;
+int main(void)
+{        char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
+         write(1, quo, 59);
+         return (1);
 }
-
