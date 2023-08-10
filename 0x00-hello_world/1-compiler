@@ -1,9 +1,2 @@
 #!/bin/bash
 gcc -c $c_file -o $CFILiE
-#include <stdio.h>
-
-int main() {
-  printf("This is a string printed by main.c\n");
-  return 0;
-}
-
