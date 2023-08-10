@@ -1,9 +1,11 @@
 #include <stdio.h>
-/* 
- *main
+
+/*
+main - entry point
+Description: A C program that prints with put function
+Return: Alawys 0 (Success)
 */
-int main() 
-{
-    puts("Programming is like building a multilingual puzzle");
-    return 0;
+int main() {
+	    puts("\"Programming is like building a multilingual puzzle");
+	        return 0;
 }
