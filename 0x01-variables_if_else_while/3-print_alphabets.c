@@ -3,13 +3,13 @@
 /**
  * main - This is the main function.
  *
- * Description: This program prints the alphabet in lowercase, and then in uppercase
+ * Description: This program prints the alphabet in lowercase
  *
  * Return: Always 0.
  */
 int main(void)
 {
-       	char ch;
+	char ch;
 
 	/* Declare ch. */
 	ch = 'a';
@@ -27,7 +27,7 @@ int main(void)
 	{
 		putchar(ch);
 		ch++;
-	{
+	}
 		/* Print a newline. */
 	putchar('\n');
 	return (0);
