@@ -5,7 +5,7 @@
 /**
  * main - entry point
  *
- * descriptin: positive or negative
+ * descriptin: true or false validation
  *
  * Return : 0 (success)
 */
