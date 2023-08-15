@@ -1,13 +1,20 @@
-# include "main.h"
+#include "main.h"
+
 /**
-*"main.h •
-*main - Entry point
-*Description: prints _putchar using putchar prototype
-*Return: Always O (success)
+*main - function prints text as output
+*
+*Return:return 0
 */
 int main(void)
-char str[] = "_putcha";
-int ch;
-for (ch = O; ch < 8; ch++)
-—putchar( '\n' ) ;
-return (0) ;
+{
+	char school[10] = "_putchar";
+
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(school[i]);
+	}
+	_putchar(10);
+	return (0);
+}
