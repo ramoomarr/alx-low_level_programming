@@ -1,2 +1,0 @@
-# alx_low_level_programming-0x02_functions_nested_loop
-0x02-functions_nested_loops
