@@ -1,13 +1,13 @@
-#Include < unist.h >
-#include "main.h"
+# include "main.h"
 /**
-*_putchar - writes the character c to stdout
-* Oc: The character to print
-*Return: on success 1.
-*on error, -I is returned, and errno is set appropri
-tely.
+*"main.h •
+*main - Entry point
+*Description: prints _putchar using putchar prototype
+*Return: Always O (success)
 */
-int —putchar(char c)
-{
-return (write(l, &c, 1));
-}
+int main(void)
+char str[] = "_putcha";
+int ch;
+for (ch = O; ch < 8; ch++)
+—putchar( '\n' ) ;
+return (0) ;
